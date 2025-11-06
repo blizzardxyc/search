@@ -129,7 +129,7 @@ export const PixelImage = ({
   }, [rows, cols]);
 
   return (
-    <div className="relative h-12 w-12 select-none md:h-96 md:w-96">
+    <div className="relative h-12 w-12 select-none md:h-12 md:w-12">
       {pieces.map((piece, index) => (
         <div
           key={index}
